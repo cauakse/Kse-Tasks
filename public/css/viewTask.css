@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+  
+  /* Tasks Section */
+  .tasks-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .tasks-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .add-task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .add-task-form input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .add-task-form input:focus {
+    outline: none;
+    border-color: #5b59f7;
+    box-shadow: 0 0 5px rgba(91, 89, 247, 0.2);
+  }
+  
+  .tasks-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+  }
+  
+  .task-item span {
+    font-size: 16px;
+  }
+  
+  .complete-task-form {
+    margin: 0;
+  }
+  
+  .btn {
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .btn.primary {
+    background: #5b59f7;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn.secondary {
+    background: #81c784; 
+    color: #2e7d32; 
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .greenBg{
+    background-color: #81c784;
+  }
+
+  .btn.danger {
+    background: #f44336; /* Vermelho */
+    color: #ffffff; /* Branco */
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn.danger:hover {
+    transform: scale(1.05);
+    background: #d32f2f; /* Vermelho mais escuro no hover */
+  }

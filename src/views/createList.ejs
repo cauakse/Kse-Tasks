@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create New List</title>
+  <link rel="stylesheet" href="/css/createList.css">
+</head>
+<body>
+    <div class="container">
+  <header>
+    <%- include('partials/header') %>
+  </header>
+
+  <main>
+    <section class="form-container">
+      <h1>Create a New List</h1>
+      <form action="/createList" method="POST">
+        <label for="name">List Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter the name of your list" required>
+        <button type="submit" class="btn primary">Create List</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <%- include('partials/footer') %>
+  </footer>
+</div>
+</body>
+</html>
