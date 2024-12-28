@@ -1,3 +1,4 @@
+
 {
   "version": 2,
   "builds": [
@@ -12,8 +13,8 @@
       "dest": "/public/css/$1"
     },
     {
-      "src": "/(.+)",
-      "dest": "/src/index.js"
+      "src": "/(.*)",
+      "dest": "src/index.js"
     }
   ]
 }
