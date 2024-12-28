@@ -1,7 +1,7 @@
 {
   "name": "kse-to-do",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node --watch src/index.js",
@@ -9,12 +9,13 @@
 
   },
   "keywords": [],
-  "author": "",
+  "author": "Caua Pereira",
   "type": "module",
   "license": "ISC",
-  "description": "",
+  "description": "A to do app",
   "dependencies": {
     "ejs": "^3.1.10",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "path": "^0.12.7"
   }
 }
