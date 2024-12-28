@@ -20,3 +20,5 @@ app.listen(PORT,()=>{
 Rodando em http://localhost:${PORT}/`);
     
 })
+
+export default app;
